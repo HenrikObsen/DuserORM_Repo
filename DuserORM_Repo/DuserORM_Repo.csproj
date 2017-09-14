@@ -102,6 +102,24 @@
   <ItemGroup>
     <Content Include="Views\web.config" />
     <None Include="packages.config" />
+    <Content Include="Views\AddingData\Add.cshtml" />
+    <Content Include="Views\DeletingData\DeleteList.cshtml" />
+    <Content Include="Views\GettingData\FillViewModel.cshtml" />
+    <Content Include="Views\GettingData\GetAllOrderBy.cshtml" />
+    <Content Include="Views\GettingData\GetAllRows.cshtml" />
+    <Content Include="Views\GettingData\GetARow.cshtml" />
+    <Content Include="Views\GettingData\GetAValue.cshtml" />
+    <Content Include="Views\GettingData\GetByColumnValue.cshtml" />
+    <Content Include="Views\GettingData\GetBySQL.cshtml" />
+    <Content Include="Views\GettingData\GetXamound.cshtml" />
+    <Content Include="Views\GettingData\InnerJoin.cshtml" />
+    <Content Include="Views\Other\Footer.cshtml" />
+    <Content Include="Views\Other\Index.cshtml" />
+    <Content Include="Views\Other\Menu.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\UpdatingData\UpdateForm.cshtml" />
+    <Content Include="Views\UpdatingData\UpdateList.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -113,6 +131,12 @@
     <Folder Include="App_Data\" />
     <Folder Include="Controllers\" />
     <Folder Include="Models\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Duser_Repo\Duser_Repo.csproj">
+      <Project>{e41413a4-b5d4-4ebd-88b8-4ce45b53ab08}</Project>
+      <Name>Duser_Repo</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
